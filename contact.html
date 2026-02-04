@@ -19,7 +19,30 @@
         </nav>
         <main>
             <section>
-                    <h2>Contact Form</h2>
+                    <h2>Join the eNewsletter</h2>
+                        <form>
+                            <label for="fullName">Full Name</label><br>
+                            <input type="text" id="fullName" name="fullName" required><br>
+
+                            <label for="email">Email Address</label><br>
+                            <input type="email" id="email" name="email" required><br>
+
+                            <label for="comments">Comments</label><br>
+                            <textarea id="comments" name="comments">Comments</textarea>
+
+                            <fieldset>
+                                    <legend>How did you find us?</legend>
+                                        <label for="friend"><input type="radio" id="friend" name="findUs" value="friend">A Friend</label>
+                                        <label for="instagram"><input type="radio" id="instagram" name="findUs" value="instagram">Instagram</label>
+                            </fieldset>
+
+                             <fieldset>
+                                    <legend>What kind of cat(s) do you have?</legend>
+                                        <label for="tabby"><input type="checkbox" id="tabby" name="cats" value="tabby">Tabby</label>
+                                        <label for="calico"><input type="checkbox" id="calico" name="cats" value="calico">Calico</label>
+                            </fieldset>
+
+                        </form>
             </section>
         </main>
         <footer>
